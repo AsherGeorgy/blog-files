@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hidden Costs of Social Media: Why I Turned to Blogging</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Explore the hidden costs of social media and why I turned to blogging. Read my personal experience and reflections on authenticity, mental health, and online culture.">
+    <meta name="keywords" content="social media, blogging, algorithms, mental health, online culture, social media impact, authenticity, personal growth">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Your Name">
+
+    <!-- Open Graph Tags for Social Media -->
+    <meta property="og:title" content="The Hidden Costs of Social Media and Why I Turned to Blogging">
+    <meta property="og:description" content="A personal exploration of the effects of social media and how blogging provides a healthier alternative for self-expression.">
+    <meta property="og:image" content="https://unsplash.com/photos/s9CC2SKySJM/download?force=true&w=1920">
+    <meta property="og:url" content="https://yourwebsite.com/your-article-url">
+    <meta property="og:type" content="article">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Hidden Costs of Social Media and Why I Turned to Blogging">
+    <meta name="twitter:description" content="A personal reflection on how social media algorithms influence mental health and authenticity, and why blogging offers a more meaningful outlet.">
+    <meta name="twitter:image" content="https://unsplash.com/photos/s9CC2SKySJM/download?force=true&w=1920">
+
+    <!-- Favicon Links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest" type="application/manifest+json">
+
+    <!-- External CSS & Fonts -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Lobster|Open+Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-color: #009688;
+            --text-color: #555;
+            --background-color: #fff;
+        }
+        body {
+            font-family: "Open Sans", sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .header-section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .back-button-link {
+            display: block;
+            width: fit-content;
+            margin: 25px auto; 
+            color: white;
+            background-color: var(--primary-color);
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s ease, transform 0.3s ease, text-decoration 0.3s ease;
+            text-decoration: none; 
+            font-size: 0.8rem;		
+        }
+        .back-button-link:hover {
+            color: white;
+            background-color: #4CAF50; 
+            transform: translateY(-2px); 
+            text-decoration: underline;
+        }
+        h1 {
+            color: var(--primary-color);
+            font-size: 3rem;
+            margin-bottom: 1px;
+            font-family: "Lobster", cursive;
+        }
+        h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-top: 30px;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            font-family: "Roboto", sans-serif;
+            text-transform: capitalize;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.7; 
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+		a {
+            color: #009688;
+            text-decoration: underline; 
+        }
+
+        a:hover {
+            text-decoration: underline; 
+            color: #4CAF50;
+            transition: color 0.3s ease;
+        }
+        .emphasized-quote {
+            display: block;
+            font-size: 1.1rem;
+            font-weight: bold;   
+            color: #333;         
+            border-left: 4px solid #009688; 
+            padding-left: 10px;  
+            margin: 10px 0;      
+            background-color: #f2f2f290;
+        }
+        .conclusion{
+            border-left: 4px solid #009688; 
+            border-right: 4px solid #009688;
+            padding-left: 10px;  
+            padding-right: 10px;
+            margin: 10px 0; 
+            color: #333;
+            background-color: #cccccc3a; 
+            font-weight: bold;
+        }
+        .source-info {
+            font-size: 0.7em;     
+            color: #555;        
+            display: block;       
+            margin-top: 5px;      
+            font-style: italic;   
+            text-align: right;     
+            width: 100%;           
+        }
+
+        .media-description {
+            font-size: 1em;      
+            color: #555555e7;           
+            display: block;        
+            font-style: italic;    
+            text-align: center;     
+            width: 100%;          
+        }
+
+        .blog-post {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            flex: 1; 
+        }
+        .header-image {
+            width: 100%;
+            height: 40%;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        
+        .social-share {
+            margin: 40px 0 0 0;
+            text-align: center;
+        }
+        .social-share a {
+            margin: 0 10px;
+            font-size: 1.3rem;
+            color: var(--primary-color);
+        }
+        .comments {
+            margin-top: 40px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+        .comment-box {
+            margin-bottom: 20px;
+        }
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #f2f2f2;
+            padding: 30px 20px;
+            text-align: center;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer a {
+            color: #f2f2f2;
+            text-decoration: underline;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #009688; 
+        }
+		.blogpost .iframe {
+			height: 100%;
+			width: 100%;
+		}
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<div class="header-section">
+    <h1>Blogging and the Hidden Costs of Social Media</h1>
+</div>
+
+<main class="blog-post">
+    
+
+    <p>In today’s world, most people turn to social media—whether it’s Facebook, Instagram, Twitter (or whatever it is being called these days)—to share their thoughts and experiences with the world. Professionals flock to LinkedIn. It’s a convenient way to stay connected and informed on anything under the sun. Elon Musk famously referred to Twitter as “ <a href="https://x.com/elonmusk/status/1507777261654605828?lang=en" target="_blank" rel="noopener noreferrer">the de facto town square.</a> ”</p>
+        
+    <p><b>Why then, am I here on my own personal corner of the internet?</b> </p>
+
+    <p style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+        <a href="https://unsplash.com/photos/person-writing-on-brown-wooden-table-near-white-ceramic-mug-s9CC2SKySJM" target="_blank" rel="noopener noreferrer">
+            <img src="https://unsplash.com/photos/s9CC2SKySJM/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzM0NDU2MzMxfA&force=true&w=640" alt="Blogging" style="height: 200px; width: 350px;">
+        </a>
+        <a href="https://www.gettyimages.in/search/2/image?phrase=social+media">
+            <img src="https://media.gettyimages.com/id/599703424/photo/social-media.jpg?s=612x612&w=0&k=20&c=AKZazj7NslnZrr3rqpx4zbPp0IuwQpd7gB2tWoZGvdA=" alt="Social media" style="height: 200px; width: 350px;">
+        </a>
+    </p>
+    
+    
+	
+    <h2>Let’s talk about Algorithms</h2>
+    <p>At the heart of any tech company lies its algorithms. They power everything from search engines to recommendations and data analysis, allowing them to process big data to improve and personalize user experiences. Algorithms curate content based on activity history, both on the platform and across the web, using cookies to predict what piques one's interest. The effectiveness of algorithms is crucial to their success and competitiveness. </p>
+	
+	<p>Sounds harmless enough, right? RIGHT?</p>
+	
+	<ol>
+	<h3><li>The Echo Chambers</li></h3>
+			<p>An echo chamber is defined as an environment where individuals are exposed primarily to information that reinforces their existing beliefs, leading to a distorted or limited understanding of diverse perspectives. Algorithms, by design, create such "chambers" where our beliefs are constantly validated without ever being challenged. We get a false sense of satisfaction from thinking we are right about everything—until the day someone challenges us with a different perspective, and the house of cards we had carefully constructed comes crashing down.</p> <p>Understandably, many do not react gracefully to such challenges. But, as a wise man once said, personal growth begins only at the end of our comfort zones. </p>
+	<h3><li>The Doomscrolling</li></h3>
+			<p>	Algorithms are designed to promote content with high engagement rates. While this, in theory, should help spread positivity throughout the internet, the pendulum swings the other way more often.</p> 
+            <p>
+                <div class="emphasized-quote">"Negative words in headlines increased consumption rates, while positive words decreased them. Each additional negative word in an average-length headline boosted click-through rates by 2.3%."
+                    <span class="source-info">Research from <a href="https://www.nature.com/articles/s41562-023-01538-4" target="_blank" rel="noopener noreferrer">nature.com</a></span>
+                </div>
+            </p>
+            <p>This means algorithms inherently promote ‘doomscrolling’—feeding users with ragebait and conspiracy theories. As a result, these platforms are incentivized to amplify such content, as their business model thrives on increasing traffic and keeping people engaged.</p>
+			<p>Things gets worse when bots enter the picture. Bots are used not only by individuals trying to boost their social media presence, but also by bad-faith actors manipulating algorithms to spread propaganda, <a href="https://www.cnbc.com/2024/10/23/chinese-influence-operation-targets-down-ballot-races-microsoft-says.html" target="_blank" rel="noopener noreferrer">election interference</a>, and promote hate, fear, and misinformation. In fact, there are large scale operations, particularly in East Asian countries, known as ‘<a href="https://edition.cnn.com/style/vietnam-farms-jack-latham-beggars-honey/index.html" target="_blank" rel="noopener noreferrer">click farms</a>’ that do this as on a commercial scale. </p>
+            
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <blockquote class="twitter-tweet" data-media-max-width="560">
+                    <p lang="es" dir="ltr">
+                        Granja de bots, así se difunden las Fake news y los falsos seguidores 🤯
+                        <a href="https://t.co/L6aS6c2h1R">pic.twitter.com/L6aS6c2h1R</a>
+                    </p>
+                    &mdash; Más Ciencia (@MsCiencia2) 
+                    <a href="https://twitter.com/MsCiencia2/status/1849430314017255525?ref_src=twsrc%5Etfw">October 24, 2024</a>
+                </blockquote>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <span class="media-description">An alleged commercial "click farm"</a></span>
+
+            <p>Content amplified by click farms creates a distorted version of reality in the user's mind, leading them to believe in alternate narratives that may not accurately reflect the opinions held by real people, potentially causing feelings of anger or fear.</p>
+            
+
+	<h3><li>The Dilemma of Authenticity</li></h3>
+			<p>Whether the goal is to make a living by making entertaining or educational YouTube videos, or if it is more cynical like discussed above, gaining the algorithm’s good favor is key. The choice is often between staying original and true to yourself, or conforming to what the algorithm gods are smiling on at the time. This may be why social media is plagued with content that lacks originality, authenticity, or candidness. A quick scroll through LinkedIn would reveal how similar the top viral posts are —their essence and how they are structured. </p> 
+            
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="https://www.dropbox.com/scl/fi/x9vx4s11c223vgx41v2t6/120844917_1620737391440351_9215627387136603821_n.jpg?rlkey=64q502j52mm3ip6bmrs1x881v&st=om7z0q7o&raw=1" style="max-height: 300px;">
+            </div>
+            <span class="media-description">A satirical linkedin viral post.</a></span>
+        
+            <p>The algorithm favors posts that conform to certain patterns, leading to a sea of uniform content from people trying too hard to get noticed. Some such LinkedIn posts are so cringe-worthy that there's now a subreddit dedicated to them: <a href="https://www.reddit.com/r/LinkedInLunatics/" target="_blank" rel="noopener noreferrer">r/linkedinlunatics</a></p>
+            
+	<h3><li>The Façade of Wellness</li></h3>
+			<p>Social media presence has become a key part of one's identity. Both organizations and individuals look to social media to evaluate others, creating the pressure to maintain a persona that may have little to do with reality. Someone could be going through tough times personally, yet their latest posts suggest otherwise. There, you'll find a happy, well-adjusted individual who seems to have everything figured out and under control.</p>
+			
+            <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0EFHbruKEmw?si=NiZRrfTxE_BoXJou" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <span class="media-description">A YouTube video from 2017 with over 23 million views attempts to capture this social pressure and façade.</a></span>
+            
+			<p>It could be that those who post frequently on social media are insecure, lonely, narcissistic, or seeking validation. This craving for attention and approval might also explain why some people look for trivial excuses to post their own photos, like birthday wishes, social commentary, or motivational quotes. But that's painting with too broad a brush. </p>
+
+            <p>
+                <div class="emphasized-quote">“The better you feel about yourself, the less you feel the need to show off.”
+                    <span class="source-info">Quote from <a href="https://en.wikipedia.org/wiki/Robert_Hand" target="_blank" rel="noopener noreferrer">Robert Hand</a></span>
+                </div>
+            </p>
+
+			<p>I deactivated my facebook profile when I was in high school and never even started with Instagram. I felt like the pressure to constantly post and maintain an appearance was unnessecary and unhealthy. I was not a particularly bright kid, but I still believe this was one of the best decisions I ever made. </p>
+	<h3><li>The Perpetual Insecurity</li></h3>
+			<p>Scrolling through a feed filled with others’ carefully curated best moments can take a toll on anyone’s self-perception. <a href="https://www.theverge.com/2021/9/15/22675130/facebook-instagram-teens-mental-health-damage-internal-research" target="_blank" rel="noopener noreferrer">Internal research conducted by Facebook</a> in 2021 revealed that the platform can have (among others) detrimental effects on the self-image of its users, especially teenage girls. </p>
+                
+            <p>
+                <div class="emphasized-quote">“The constant cycle of [conscious or subconscious] social comparison and dissatisfaction has led many to develop mental health issues such as depression, anxiety, and low self-esteem.”
+                    <span class="source-info"><a href="https://www.teenvogue.com/story/the-science-behind-social-medias-hold-on-our-mental-health" target="_blank" rel="noopener noreferrer">teenvogue.com</a></span>
+                </div>
+            </p>
+                
+            <p>On the professional side of social media, LinkedIn inadvertently creates a sense of perpetual dissatisfaction and anxiety, as users strive to match or surpass others’ achievements (which may themselves be exaggerated or distored).</p>
+
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="https://www.dropbox.com/scl/fi/1v3bf0mlajkjeagnneazv/seem-about-right-v0-iupbmplytw1e1.PNG?rlkey=hsb6qfu8jjqzph9k3o8cnc0vr&st=59dhavs5&raw=1" style="max-height: 500px;">
+            </div>
+
+
+    <h3><li>The Dopamine Dependance</li></h3>
+			<p>Dopamine is the chemical that’s often referred to as the ‘happy hormone’. It’s released when one experiences happiness or satisfaction from  something. This reward system works as an evolutionary mechnism that keeps humans motivated to repeat those behaviours that promote happiness and well-being. </p>
+			<p>Unfortunately, this mechanism has been hijacked by the instant and effortless dopamine hits one can get from social media (to name just one). They are designed to exploit this reward system, causing a myriad of issues such as dopamine cravings, compulsive behaviour, and dependance on social validation, instant gratification, and novelty.</p>
+	
+            <p> Justin Rosenstein, <a href="https://thehill.com/policy/technology/354574-the-engineer-that-created-the-facebook-like-now-limits-his-use-of-facebook/" target="_blank" rel="noopener noreferrer">the Facebook engineer who created the “Like” button</a>, referred to it as “bright dings of pseudo-pleasure” and voiced concerns about its negative impact, such as addiction and distraction. He decries how it contributed to a culture of constant comparison and approval-seeking, urging people to prioritize meaningful connections over seeking validation through likes.</p>
+    
+    <h3><li>The Toll on Productivity</li></h3>
+            <p>Short-form media content (referred to as reels, tiktoks, or shorts, depending on the platform) are essentially like dog treats the algorithm throws at the user, who loses track of time mindlessly consuming them. his seemingly endless swiping, paired with the constant bombardment of fast-paced, engaging videos creates a cycle of distraction, which can impair focus, reduce productivity, and hinder the ability to retain information. This affects work efficiency and learning, as well as pose long-term consequences on mental well-being, leading to increased stress and a diminished sense of accomplishment.</p>
+            
+    <h3><li>The Incurable Toxicity</li></h3>
+			<p>Like any addiction, addiction to dopamine hits from social media has the potential to escalate, i.e. they need more to feel the same satisfaction. This may explain why influencers gradually turn to riskier or edgier content.</p> 
+            <p>This could also explain why toxicity is so common on these platforms. They seek to build a presence by constantly posting vitriol and engage in endless arguments. They don't shy away from calling for and even celebrating violence or harm to someone deemed to be on the "other side", often hiding behind the anonymity the platform provides. Mike Tyson once commented on this (ironically) on his Facebook:</p> 
+            <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02Xk7cN39jKEwAvE1ffxqPncS7aEuGcqjUAJvHD5RCXKSd14CbEYw4mc17e8jgG8Xgl%26id%3D1436354686635680&show_text=true&width=500" width="500" height="436" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+            
+	</ol>
+	
+	<h2>Is Social Media all bad?</h2>
+        <p><b>Absolutely not.</b></p> 
+        <p>Many use social media to grow their businesses, expand professional networks, raise awareness about important issues, and stay connected with loved ones. Social comparisons can motivate individuals to improve, set goals, and strive for excellence. Following successful people can inspire and encourage personal growth.</p>
+
+        <p>That said, it is important to remember that everyone is on their own journey with their own ups and downs.</p> 
+        <div class="emphasized-quote">
+            <ul> 
+                <li>Not everyone began from the same starting point or were given the same opportunities.</li> 
+                <li>Always take social media with a grain of salt. While some may be genuinely doing well, many are likely exaggerating or straight up faking it. </li>
+                <li>Nobody has everything about their life exactly figured out and perfectly lined up.</li>
+                <li>Live life steadily with a longer term perspective. Rome was built one brick at a time.</li>
+            </ul>
+        </div>
+        <p>Take a step back and be grateful for the blessings in your life. For perspective, <a href="https://www.cnbc.com/2018/11/01/how-much-money-you-need-to-be-part-of-the-1-percent-worldwide.html" target="_blank" rel="noopener noreferrer">according to CNBC</a>, if you have $4,210 (₹3,50,000) to your name, you belong in the top 50% of the world, i.e. more than half the world wishes they were in your position financially.</p>
+
+	<h2>Why I made this Blog</h2>
+		<p>My decision is step off the bandwagon is personal, what feels right for me. This is not a judgement on other people's choices. This is my first ever blog post (not counting a few quora posts from years ago), and is more a personal development project rather than a social critique.</p>
+
+        <p>Writing itself does wonders personally and professionally, improving communication skills, cognitive development, and encouraging personal reflection. A blog adds to those benefits by offering the opportunity to be authentic, free from the constraints of social media terms of service and algorithmic pressures. The focus is on personal development, not external validation, and there need not be any metrics required to define success. Not contributing to a machine that is contributing to so much division, hate, and mental health issues is also a definite plus. </p>
+
+        <div class="conclusion">
+		    If you’ve made it this far, I just want to take a moment to thank you. Whether you’re here for a brief moment or for a longer stretch, I appreciate you being part of this journey.<br><br>
+
+            P.S: I'm not a writer or a social critique by any measure. My intention here is not to come across as preachy or judgemental. 
+        </div>
+
+    <!-- Social Share Buttons -->
+    <div class="social-share">
+        <h3>Share this post:</h3>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=ashergeory.github.io/blogposts/Post1.html" aria-label="Share on Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/intent/tweet?url=ashergeory.github.io/blogposts/Post1.html&text=Check%20out%20this%20blog%20post%20on%20the%20hidden%20costs%20of%20social%20media" aria-label="Share on Twitter" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=ashergeory.github.io/blogposts/Post1.html" aria-label="Share on LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+        <a href="https://api.whatsapp.com/send?text=Check%20out%20this%20blog%20post%20on%20the%20hidden%20costs%20of%20social%20media%20https%3A%2F%2Fashergeory.github.io%2Fblogposts%2FPost1.html" aria-label="Share on Whatsapp" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <div class="back-button" style="text-align: center;">
+        <a href="/blog.html" class="back-button-link">Back to Blog</a>
+    </div>
+
+</main>
+
+<!-- Footer -->
+<footer>
+    <div>&copy; 2024 Asher Georgy. All rights reserved.<br><br></div>
+    <div>Contact: <a href="mailto:asher.georgy@outlook.com">asher.georgy@outlook.com</a></div>
+</footer>
+
+</body>
+</html>
